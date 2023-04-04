@@ -1,0 +1,402 @@
+body {
+    height: 300vh;
+}
+
+.road {
+    border-bottom: 2px solid #0987b9;
+    position: relative;
+    margin: 15% 0;
+    
+}
+.fa-dog{
+    font-size: 28px;
+    color: brown;
+    position: absolute;
+    bottom: 0%;
+    left: -5%;
+    animation-name: dog;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+@keyframes dog{
+    from{
+left: -15%;
+    }
+    to{
+left: 95%;
+    }
+}
+
+.fa-cat{
+    font-size: 20px;
+    position: absolute;
+    bottom: 0%;
+    left: -5%;
+    animation-name: cat;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function:linear;
+   
+   
+}
+@keyframes cat{
+    from{
+left: 0%;
+    }
+    to{
+left: 110%;
+    }
+}
+
+.fa-sun{
+    font-size: 40px;
+    color: #FFE87C;
+    position: absolute;
+    top: -280%;
+    right: 3%;
+    animation-name: sun;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes sun {
+    from{
+        transform: scale(0.8);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
+
+
+.cloud-1{
+    font-size: 30px;
+    color:  #c7c4bf ;
+    position: absolute;
+    top: -200%;
+    left: 3%;
+    animation-name: cloud1;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes cloud1{
+    from{
+left: 3%;
+    }
+    to{
+left: 7%;
+    }
+}
+
+.cloud-2{
+    font-size: 30px;
+    color:  #c7c4bf ;
+    position: absolute;
+    top: -250%;
+    left: 29%;
+    animation-name: cloud2;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes cloud2{
+    from{
+left: 29%;
+    }
+    to{
+left: 25%;
+    }
+}
+.cloud-3{
+    font-size: 30px;
+    color:  #c7c4bf ;
+    position: absolute;
+    top: -220%;
+    left: 50%;
+    animation-name: cloud3;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes cloud3{
+    from{
+left: 50%;
+    }
+    to{
+left: 53%;
+    }
+}
+.cloud-4{
+    font-size: 30px;
+    color:  #c7c4bf ;
+    position: absolute;
+    top: -240%;
+    left: 70%;
+    animation-name: cloud4;
+    animation-duration: 3.5s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes cloud4{
+    from{
+left: 70%;
+    }
+    to{
+left: 74%;
+    }
+}
+
+
+
+
+
+.tree-1{
+    font-size: 35px;
+    color: #288b22;
+    animation-name: tree1;
+    animation-duration: 400ms;
+    transform: translateX(0px);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes tree1{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateY(-2px);
+    }
+}
+
+
+.tree-2{
+    font-size: 38px;
+    color: #288b22;
+    animation-name: tree2;
+    animation-duration: 450ms;
+    transform: translateX(800px);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes tree2{
+    from{
+        transform: translateX(800px);
+    }
+    to{
+        transform: translate(800px,-2px);
+    }
+}
+.tree-3{
+    font-size: 38px;
+    color: #288b22;
+    animation-name: tree3;
+    animation-duration: 450ms;
+    transform: translateX(1080px); /*px cox boyuk oldu positionla ele*/
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+}
+@keyframes tree3{
+    from{
+        transform: translateX(1080px);
+    }
+    to{
+        transform: translate(1080px,-2px);
+    }
+}
+.building-2{
+    font-size: 50px;
+    color: #445157;
+    transform: translateX(280px);
+    animation-name: building2;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+@keyframes building2{
+    form{
+transform: scale(0.2) translateX(280px) ;
+    }
+    to{
+transform: scale(1) translate(282px,0px);
+    }
+}
+
+.fa-house-chimney{
+    font-size: 30px;
+    color: #226a8a;
+    transform: translateX(400px);
+    animation-name: house1;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+@keyframes house1{
+    form{
+transform: scale(0.2) translateX(400px) ;
+    }
+    to{
+transform: scale(1) translate(402px,0px);
+    }
+}
+.building-1{
+    font-size: 50px;
+    color: #937b63;
+    transform: translateX(400px);
+    animation-name: building1;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+@keyframes building1{
+    form{
+transform: scale(0.2) translateX(400px) ;
+    }
+    to{
+transform: scale(1) translate(402px,0px);
+    }
+}
+
+.fa-house{
+    font-size: 20px;
+    color: #226a8a;
+    transform: translateX(356px);
+    animation-name: house2;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+@keyframes house2{
+    form{
+transform: scale(0.2) translateX(356px) ;
+    }
+    to{
+transform: scale(1) translate(358px,0px);
+    }
+}
+#wrapper {
+    border: 2px solid black;
+    height: 500px;
+    width: 700px;
+    margin: 50px auto;
+}
+
+#wrapper [class|=box] {
+    width: 100px;
+    height: 220px;
+    
+}
+
+#wrapper .box-1 {
+    background-color: #00acee;
+    transform: translate(0px, 0px);
+    transition: .95s;
+}
+
+#wrapper .box-2 {
+    background-color: indianred;
+    transition: .7s;
+    transform: translate(calc(700px - 100px), -100%);
+}
+
+#wrapper .box-3 {
+    background-color: orchid;
+    transform: translate(calc(700px - 100px), calc(500px - 660px));
+}
+
+#wrapper .box-4 {
+    background-color: springgreen;
+    transform: translate(0%, -173%);
+}
+
+#wrapper:hover>.box-2 {
+    transform: translate(0%, -100%) rotate(360deg);
+
+
+}
+
+#wrapper:hover>.box-1 {
+    transform: translate(625%, 0%) scaleX(.5) rotate(180deg);
+
+}
+
+hr {
+    margin: 100px 0;
+}
+
+.notification {
+    width: 10%;
+    display: flex;
+    margin: auto;
+
+
+}
+
+
+
+.notification #profile,
+#profile .numb {
+    font-size: 50px;
+    position: relative;
+    color: indianred;
+}
+
+.notification #profile .numb {
+    font-size: 20px;
+    position: absolute;
+    top: -5%;
+    right: -2%;
+
+}
+
+.notification #twiter {
+    margin: 0 50px;
+
+
+}
+
+.notification #twiter {
+    font-size: 50px;
+    color: #00acee;
+}
+
+.notification #twiter .count {
+    font-size: 20px;
+    transform: translate(40px, -40px);
+    color: #aaaaaa;
+
+}
+
+
+.circle{
+    
+    width: 20%;
+    margin: 40px auto;
+    height: 250px;
+    border-radius: 50%;
+    background-color: seagreen;
+    animation-name: circle-beat;
+    animation-duration: 900ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes circle-beat{
+    from{
+transform: scale(0.5) ;
+    }
+    to{
+transform: scale(1.3);
+    }
+}
+
+
